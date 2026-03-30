@@ -1087,11 +1087,6 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .cert-card:last-child:nth-child(odd) {
-        grid-column: auto;
-        max-width: 100%;
-        margin: 0;
-    }
 
     .contact-content {
         grid-template-columns: 1fr;
@@ -1179,7 +1174,6 @@ body {
     .about,
     .skills,
     .projects,
-    .achievements,
     .contact {
         padding: 4rem 0;
     }
