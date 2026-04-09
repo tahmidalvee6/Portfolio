@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -16,11 +15,6 @@ body {
     color: #e8eaed;
     line-height: 1.6;
     overflow-x: hidden;
-}
-
-::selection {
-    background: #00d9ff;
-    color: #0a0e27;
 }
 
 
@@ -46,28 +40,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    white-space: nowrap;
 }
 
 .section-line {
     flex: 1;
     height: 2px;
     background: linear-gradient(90deg, #00d9ff, transparent);
-}
-
-.about::before,
-.skills::before,
-.projects::before,
-.achievements::before,
-.contact::before,
-.footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, #00d9ff, transparent);
 }
 
 
@@ -163,10 +141,6 @@ body {
     transition: all 0.3s ease;                                      
 }
 
-.navbar.scrolled {
-    background: rgba(10, 14, 39, 0.95);
-    box-shadow: 0 4px 16px rgba(0, 217, 255, 0.15);
-}
 
 .nav-container {
     max-width: 1400px;
@@ -247,7 +221,6 @@ body {
 
 .hero-content {
     position: relative;
-    z-index: 1;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     gap: 4rem;
@@ -319,7 +292,7 @@ body {
     max-width: 520px;
 }
 
-.hero-cta {
+.hero-resources {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -332,7 +305,7 @@ body {
     margin-top: 0.25rem;
 }
 
-.hero-social .social-link {
+.social-link {
     width: 44px;
     height: 44px;
     display: flex;
@@ -346,7 +319,7 @@ body {
     transition: all 0.25s ease;
 }
 
-.hero-social .social-link:hover {
+.social-link:hover {
     background: #00d9ff;
     border-color: #00d9ff;
     color: #0a0e27;
@@ -478,11 +451,6 @@ body {
     line-height: 1.8;
 }
 
-.about-intro {
-    font-size: 1.25rem;
-    color: #e8eaed;
-}
-
 .about-highlights {
     display: flex;
     flex-direction: column;
@@ -493,7 +461,7 @@ body {
 .highlight-item {
     display: flex;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: center;
     padding: 2rem;
     background: #1a1f3e;
     border-radius: 12px;
@@ -649,13 +617,11 @@ body {
 .skill-icon {
     width: 34px;
     height: 34px;
-    min-width: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #00d9ff, #7c3aed);
     border-radius: 8px;
-    flex-shrink: 0;
 }
 
 .skill-name {
@@ -683,7 +649,6 @@ body {
     height: 100%;
     background: linear-gradient(90deg, #00d9ff, #7c3aed, #ec4899);
     border-radius: 50px;
-    transition: width 1.5s ease;
 }
 
 
@@ -754,7 +719,6 @@ body {
 }
 
 .project-points {
-    list-style: none;
     padding: 0;
     margin: 0 0 1rem 0;
     display: flex;
