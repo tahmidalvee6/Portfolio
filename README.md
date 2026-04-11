@@ -23,14 +23,6 @@ My journey in tech is driven by curiosity and a desire to build meaningful solut
 
 ---
 
-## 🎯 What I Do
-
-| Role | Focus |
-|------|-------|
-| 💻 Full-Stack Developer | Building end-to-end web apps with the MERN stack |
-| 📊 Aspiring Data Scientist | Data analysis, ML models, NumPy · Pandas · Matplotlib |
-| 📱 App Developer | Cross-platform mobile apps with Flutter & Dart |
-| 🎮 Game Developer | 2D/3D games using Unity & Scratch |
 
 ---
 
